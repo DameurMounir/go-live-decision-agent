@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+dist/
+build/
+
+# Quality-tool output
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.bandit
+.secrets.baseline
+
+# Local run state
+runs/
+exports/
+*.sqlite3
+*.db
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

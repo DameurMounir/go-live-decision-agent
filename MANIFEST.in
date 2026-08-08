@@ -1,0 +1,13 @@
+include LICENSE
+include LICENSE-DATA
+include NOTICE
+include README.md
+recursive-include src/go_live_decision_agent/sample_cases *.json
+recursive-include src/go_live_decision_agent/policy *.json
+prune tests
+prune evaluation
+prune docs
+prune assets
+prune cases
+prune runs
+prune exports
