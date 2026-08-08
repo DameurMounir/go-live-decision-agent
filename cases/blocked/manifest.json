@@ -1,0 +1,22 @@
+{
+  "case_id": "GLD-BLOCKED-001",
+  "files": [
+    {
+      "bytes": 520,
+      "path": "candidate.json",
+      "sha256": "67b39ba7a44919ccfd93a2e4094f93942056e4efe2368962b49fa63657d6ff15"
+    },
+    {
+      "bytes": 8947,
+      "path": "evidence.json",
+      "sha256": "77e56f19ad97d17528f991807ed34b08855b1cacd79b4703b9ecc4f0fff4c428"
+    },
+    {
+      "bytes": 49,
+      "path": "waivers.json",
+      "sha256": "edb0bb6a7c72e457d2207a7fefe754dcfd60e7cdc7f00b4fad5fd836b49dc5cf"
+    }
+  ],
+  "scenario": "blocked",
+  "schema_version": "1.0.0"
+}

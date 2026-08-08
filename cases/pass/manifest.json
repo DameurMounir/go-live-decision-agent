@@ -1,0 +1,22 @@
+{
+  "case_id": "GLD-PASS-001",
+  "files": [
+    {
+      "bytes": 517,
+      "path": "candidate.json",
+      "sha256": "870cd216e3da76c2f28206148d695479b6db411dc9293c8794ddd6fbc0c88e85"
+    },
+    {
+      "bytes": 9640,
+      "path": "evidence.json",
+      "sha256": "96f186102f17e6b3b4ced5e672d2ceb298f01f2101bcd5d5b0661d3086f2a09d"
+    },
+    {
+      "bytes": 49,
+      "path": "waivers.json",
+      "sha256": "edb0bb6a7c72e457d2207a7fefe754dcfd60e7cdc7f00b4fad5fd836b49dc5cf"
+    }
+  ],
+  "scenario": "pass",
+  "schema_version": "1.0.0"
+}
