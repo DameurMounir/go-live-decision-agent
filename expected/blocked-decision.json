@@ -1,0 +1,232 @@
+{
+  "advisory": {
+    "adapter_id": "rule-advisor-v1",
+    "authority": "ADVISORY_ONLY",
+    "decision": "BLOCKED",
+    "decision_digest": "6fd5ccdf208044ade6ab31d115c69f4351e78a8ba8e0e6720f4fe278cce59646",
+    "summary": "BLOCKED: 0 failed, 3 blocked, and 11 satisfied mandatory gates."
+  },
+  "packet": {
+    "assessment_date": "2026-08-01",
+    "authority_boundary": "ADVISORY ONLY: the packet evaluates evidence but does not deploy, approve a release window, waive non-waivable gates, accept risk, or grant go-live authority.",
+    "blocked_gate_ids": [
+      "G-11",
+      "G-13",
+      "G-14"
+    ],
+    "candidate_id": "ATLASBRIDGE-ONBOARDING-2",
+    "candidate_version": "2.0.0-rc.4",
+    "decision": "BLOCKED",
+    "decision_digest": "6fd5ccdf208044ade6ab31d115c69f4351e78a8ba8e0e6720f4fe278cce59646",
+    "failed_gate_ids": [],
+    "gates": [
+      {
+        "domain": "RELEASE_GOVERNANCE",
+        "evidence_ids": [
+          "E-01"
+        ],
+        "gate_id": "G-01",
+        "reason_codes": [
+          "CURRENT_APPROVED_PASS_EVIDENCE"
+        ],
+        "status": "PASS",
+        "title": "Release identity and scope",
+        "waiver_id": null
+      },
+      {
+        "domain": "BUSINESS",
+        "evidence_ids": [
+          "E-02"
+        ],
+        "gate_id": "G-02",
+        "reason_codes": [
+          "CURRENT_APPROVED_PASS_EVIDENCE"
+        ],
+        "status": "PASS",
+        "title": "Business acceptance",
+        "waiver_id": null
+      },
+      {
+        "domain": "QUALITY",
+        "evidence_ids": [
+          "E-03"
+        ],
+        "gate_id": "G-03",
+        "reason_codes": [
+          "CURRENT_APPROVED_PASS_EVIDENCE"
+        ],
+        "status": "PASS",
+        "title": "Functional acceptance",
+        "waiver_id": null
+      },
+      {
+        "domain": "SECURITY",
+        "evidence_ids": [
+          "E-04"
+        ],
+        "gate_id": "G-04",
+        "reason_codes": [
+          "CURRENT_APPROVED_PASS_EVIDENCE"
+        ],
+        "status": "PASS",
+        "title": "Security verification",
+        "waiver_id": null
+      },
+      {
+        "domain": "PRIVACY_DATA",
+        "evidence_ids": [
+          "E-05"
+        ],
+        "gate_id": "G-05",
+        "reason_codes": [
+          "CURRENT_APPROVED_PASS_EVIDENCE"
+        ],
+        "status": "PASS",
+        "title": "Privacy and data protection",
+        "waiver_id": null
+      },
+      {
+        "domain": "PRIVACY_DATA",
+        "evidence_ids": [
+          "E-06"
+        ],
+        "gate_id": "G-06",
+        "reason_codes": [
+          "CURRENT_APPROVED_PASS_EVIDENCE"
+        ],
+        "status": "PASS",
+        "title": "Data migration and reconciliation",
+        "waiver_id": null
+      },
+      {
+        "domain": "PERFORMANCE",
+        "evidence_ids": [
+          "E-07"
+        ],
+        "gate_id": "G-07",
+        "reason_codes": [
+          "CURRENT_APPROVED_PASS_EVIDENCE"
+        ],
+        "status": "PASS",
+        "title": "Performance and capacity",
+        "waiver_id": null
+      },
+      {
+        "domain": "RELIABILITY",
+        "evidence_ids": [
+          "E-08"
+        ],
+        "gate_id": "G-08",
+        "reason_codes": [
+          "CURRENT_APPROVED_PASS_EVIDENCE"
+        ],
+        "status": "PASS",
+        "title": "Reliability and recovery",
+        "waiver_id": null
+      },
+      {
+        "domain": "OPERATIONS",
+        "evidence_ids": [
+          "E-09"
+        ],
+        "gate_id": "G-09",
+        "reason_codes": [
+          "CURRENT_APPROVED_PASS_EVIDENCE"
+        ],
+        "status": "PASS",
+        "title": "Observability and incident response",
+        "waiver_id": null
+      },
+      {
+        "domain": "OPERATIONS",
+        "evidence_ids": [
+          "E-10"
+        ],
+        "gate_id": "G-10",
+        "reason_codes": [
+          "CURRENT_APPROVED_PASS_EVIDENCE"
+        ],
+        "status": "PASS",
+        "title": "Support readiness",
+        "waiver_id": null
+      },
+      {
+        "domain": "CHANGE_READINESS",
+        "evidence_ids": [
+          "E-11"
+        ],
+        "gate_id": "G-11",
+        "reason_codes": [
+          "EVIDENCE_STALE"
+        ],
+        "status": "BLOCKED",
+        "title": "Training and communications",
+        "waiver_id": null
+      },
+      {
+        "domain": "RELEASE_GOVERNANCE",
+        "evidence_ids": [
+          "E-12"
+        ],
+        "gate_id": "G-12",
+        "reason_codes": [
+          "CURRENT_APPROVED_PASS_EVIDENCE"
+        ],
+        "status": "PASS",
+        "title": "Rollback and rollforward readiness",
+        "waiver_id": null
+      },
+      {
+        "domain": "SUPPLY_CHAIN",
+        "evidence_ids": [],
+        "gate_id": "G-13",
+        "reason_codes": [
+          "MISSING_REQUIRED_EVIDENCE"
+        ],
+        "status": "BLOCKED",
+        "title": "External dependency readiness",
+        "waiver_id": null
+      },
+      {
+        "domain": "RELEASE_GOVERNANCE",
+        "evidence_ids": [
+          "E-14"
+        ],
+        "gate_id": "G-14",
+        "reason_codes": [
+          "APPROVAL_PENDING"
+        ],
+        "status": "BLOCKED",
+        "title": "Release authority and window",
+        "waiver_id": null
+      }
+    ],
+    "limitations": [
+      "The organisation, candidate, evidence, and outcomes are synthetic.",
+      "The decision is evidence-bound and is not a production forecast.",
+      "Human release authority remains responsible for the actual go-live decision."
+    ],
+    "passed_gate_ids": [
+      "G-01",
+      "G-02",
+      "G-03",
+      "G-04",
+      "G-05",
+      "G-06",
+      "G-07",
+      "G-08",
+      "G-09",
+      "G-10",
+      "G-12"
+    ],
+    "policy_id": "ATLASBRIDGE-GO-LIVE-POLICY",
+    "policy_version": "1.0.0",
+    "required_actions": [
+      "Supply or reconcile evidence for blocked gate G-11.",
+      "Supply or reconcile evidence for blocked gate G-13.",
+      "Supply or reconcile evidence for blocked gate G-14."
+    ],
+    "residual_risks": [],
+    "scenario": "blocked"
+  }
+}
