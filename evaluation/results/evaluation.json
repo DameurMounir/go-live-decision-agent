@@ -1,0 +1,25 @@
+{
+  "adversarial_decisions": {
+    "explicit_failure": "FAIL",
+    "missing_evidence": "BLOCKED",
+    "stale_or_pending_evidence": "BLOCKED"
+  },
+  "claims": {
+    "frozen_case_only": true,
+    "live_model_evaluation": "NOT_RUN",
+    "production_forecast": false,
+    "release_authority": false
+  },
+  "evaluation": {
+    "exact_decision_agreement": 1.0,
+    "gate_traceability_rate": 1.0,
+    "runtime_answer_key_isolation": true,
+    "scenario_agreement": {
+      "blocked": true,
+      "fail": true,
+      "pass": true
+    },
+    "status": "PASS",
+    "zero_false_pass": true
+  }
+}
