@@ -1,0 +1,43 @@
+{
+  "$id": "https://example.invalid/go-live-review.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "action": {
+      "enum": [
+        "CONFIRM",
+        "REQUEST_REVISION",
+        "REJECT"
+      ]
+    },
+    "comment": {
+      "maxLength": 2000,
+      "type": "string"
+    },
+    "decision_digest": {
+      "pattern": "^[0-9a-f]{64}$",
+      "type": "string"
+    },
+    "nonce": {
+      "minLength": 32,
+      "type": "string"
+    },
+    "reviewer": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "run_id": {
+      "minLength": 1,
+      "type": "string"
+    }
+  },
+  "required": [
+    "action",
+    "decision_digest",
+    "nonce",
+    "reviewer",
+    "run_id"
+  ],
+  "title": "Go-Live Human Review Command",
+  "type": "object"
+}
