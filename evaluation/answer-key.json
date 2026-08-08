@@ -1,0 +1,28 @@
+{
+  "answer_key_policy": "Evaluation-only. Runtime decision code must not read this file.",
+  "cases": {
+    "blocked": {
+      "blocked_gate_ids": [
+        "G-11",
+        "G-13",
+        "G-14"
+      ],
+      "decision": "BLOCKED",
+      "failed_gate_ids": []
+    },
+    "fail": {
+      "blocked_gate_ids": [],
+      "decision": "FAIL",
+      "failed_gate_ids": [
+        "G-04",
+        "G-12"
+      ]
+    },
+    "pass": {
+      "blocked_gate_ids": [],
+      "decision": "PASS",
+      "failed_gate_ids": []
+    }
+  },
+  "schema_version": "1.0.0"
+}

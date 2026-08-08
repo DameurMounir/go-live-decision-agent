@@ -1,0 +1,11 @@
+{
+  "assessment_date": "2026-08-01",
+  "candidate_id": "ATLASBRIDGE-ONBOARDING-2",
+  "candidate_version": "2.0.0-rc.4",
+  "change_summary": "Controlled onboarding workflow with reusable intake, parallel checks, evidence-bound activation, and operational guardrails.",
+  "data_classification": "SYNTHETIC_PUBLIC",
+  "decision_question": "Is there enough evidence to proceed: PASS, BLOCKED, or FAIL?",
+  "release_window": "2026-08-10T22:00:00Z/2026-08-11T01:00:00Z",
+  "scenario": "pass",
+  "schema_version": "1.0.0"
+}
