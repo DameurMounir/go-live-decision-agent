@@ -1,0 +1,152 @@
+{
+  "$id": "https://example.invalid/go-live-decision.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "assessment_date": {
+      "format": "date",
+      "type": "string"
+    },
+    "authority_boundary": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "blocked_gate_ids": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "candidate_id": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "candidate_version": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "decision": {
+      "enum": [
+        "PASS",
+        "BLOCKED",
+        "FAIL"
+      ]
+    },
+    "decision_digest": {
+      "pattern": "^[0-9a-f]{64}$",
+      "type": "string"
+    },
+    "failed_gate_ids": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "gates": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "domain": {
+            "type": "string"
+          },
+          "evidence_ids": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array"
+          },
+          "gate_id": {
+            "type": "string"
+          },
+          "reason_codes": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array"
+          },
+          "status": {
+            "enum": [
+              "PASS",
+              "PASS_WITH_WAIVER",
+              "BLOCKED",
+              "FAIL"
+            ]
+          },
+          "title": {
+            "type": "string"
+          },
+          "waiver_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "required": [
+          "domain",
+          "evidence_ids",
+          "gate_id",
+          "reason_codes",
+          "status",
+          "title",
+          "waiver_id"
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "limitations": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "passed_gate_ids": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "policy_id": {
+      "type": "string"
+    },
+    "policy_version": {
+      "type": "string"
+    },
+    "required_actions": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "residual_risks": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "scenario": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "assessment_date",
+    "authority_boundary",
+    "blocked_gate_ids",
+    "candidate_id",
+    "candidate_version",
+    "decision",
+    "decision_digest",
+    "failed_gate_ids",
+    "gates",
+    "limitations",
+    "passed_gate_ids",
+    "policy_id",
+    "policy_version",
+    "required_actions",
+    "residual_risks",
+    "scenario"
+  ],
+  "title": "Go-Live Decision Packet",
+  "type": "object"
+}
