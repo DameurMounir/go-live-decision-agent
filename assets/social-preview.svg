@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-labelledby="title desc">
+<title id="title">Go-Live Decision Agent social preview</title>
+<desc id="desc">Deterministically generated synthetic portfolio diagram.</desc>
+<rect width="100%" height="100%" fill="#f8fafc"/>
+<text x="70" y="100" font-family="system-ui, sans-serif" font-size="48" font-weight="800" text-anchor="start" fill="#0f172a">Go-Live Decision Agent</text>
+<text x="70" y="155" font-family="system-ui, sans-serif" font-size="28" font-weight="400" text-anchor="start" fill="#0f172a">Is there enough evidence to proceed?</text>
+<rect x="70" y="230" width="300" height="150" rx="12" fill="#ffffff" stroke="#334155" stroke-width="2"/>
+<text x="220" y="264" font-family="system-ui, sans-serif" font-size="20" font-weight="700" text-anchor="middle" fill="#0f172a">PASS</text>
+<text x="220" y="291" font-family="system-ui, sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#0f172a">all mandatory evidence satisfied</text>
+<rect x="490" y="230" width="300" height="150" rx="12" fill="#ffffff" stroke="#334155" stroke-width="2"/>
+<text x="640" y="264" font-family="system-ui, sans-serif" font-size="20" font-weight="700" text-anchor="middle" fill="#0f172a">BLOCKED</text>
+<text x="640" y="291" font-family="system-ui, sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#0f172a">decision evidence incomplete</text>
+<rect x="910" y="230" width="300" height="150" rx="12" fill="#ffffff" stroke="#334155" stroke-width="2"/>
+<text x="1060" y="264" font-family="system-ui, sans-serif" font-size="20" font-weight="700" text-anchor="middle" fill="#0f172a">FAIL</text>
+<text x="1060" y="291" font-family="system-ui, sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#0f172a">mandatory evidence failed</text>
+<text x="640" y="470" font-family="system-ui, sans-serif" font-size="24" font-weight="700" text-anchor="middle" fill="#0f172a">Deterministic gates · evidence digests · human authority</text>
+<text x="640" y="525" font-family="system-ui, sans-serif" font-size="20" font-weight="400" text-anchor="middle" fill="#0f172a">Synthetic public BSA and agentic-engineering case study</text>
+</svg>
