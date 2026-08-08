@@ -1,0 +1,22 @@
+{
+  "case_id": "GLD-FAIL-001",
+  "files": [
+    {
+      "bytes": 517,
+      "path": "candidate.json",
+      "sha256": "4c405f0169a2d8e07dedd4853734589fbd36faa545f39d9e3c0e203096858875"
+    },
+    {
+      "bytes": 9628,
+      "path": "evidence.json",
+      "sha256": "174f64f139a2dee509fc004ffd75b0e3915e6a47b12433579369c0e9b4657b59"
+    },
+    {
+      "bytes": 49,
+      "path": "waivers.json",
+      "sha256": "edb0bb6a7c72e457d2207a7fefe754dcfd60e7cdc7f00b4fad5fd836b49dc5cf"
+    }
+  ],
+  "scenario": "fail",
+  "schema_version": "1.0.0"
+}
